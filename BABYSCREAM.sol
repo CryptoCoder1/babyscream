@@ -37,7 +37,7 @@ contract BABYSCREAM is ERC20, Ownable {
 
     address public deadWallet = address(0x000000000000000000000000000000000000dEaD);
 
-    address public immutable SCREAM = address(0x55d398326f99059ff775485246999027b3197955); //SCREAM
+    address public immutable SCREAM = address(0xe0654C8e6fd4D733349ac7E09f6f23DA256bF475); //SCREAM
 
     uint256 public swapTokensAtAmount = 2000000 * (10**18);
     
@@ -48,7 +48,7 @@ contract BABYSCREAM is ERC20, Ownable {
     uint256 public marketingFee = 2;
     uint256 public totalFees = SCREAMRewardsFee.add(liquidityFee).add(marketingFee);
 
-    address public _marketingWalletAddress = address(0xB206B71dB6047fB8B675B6941507F402720E5518);
+    address public _marketingWalletAddress = address(0x240B438eab41799d759F11c9Aa99473229085781);
 
 
     // use by default 300,000 gas to process auto-claiming dividends
@@ -93,14 +93,14 @@ contract BABYSCREAM is ERC20, Ownable {
     	bool indexed automatic,
     	uint256 gas,
     	address indexed processor
-    )
+    );
 
     constructor() public ERC20("BABY SCREAM", "BABYSCREAM") {
 
     	dividendTracker = new BABYSCREAMDividendTracker();
 
 
-    	IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(address(0x10ED43C718714eb63d5aA57B78B54704E256024E));
+    	IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(address(0xF491e7B69E4244ad4002BC14e878a34207E38c29));
          // Create a uniswap pair for this new token
         address _uniswapV2Pair = IUniswapV2Factory(_uniswapV2Router.factory())
             .createPair(address(this), _uniswapV2Router.WETH());

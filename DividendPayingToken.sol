@@ -21,7 +21,7 @@ contract DividendPayingToken is ERC20, Ownable, DividendPayingTokenInterface, Di
   using SafeMathUint for uint256;
   using SafeMathInt for int256;
 
-  address public SCREAM = address(0x2168795125D44653E0b858b5F6DCc86d719b6A36); //SCREAM
+  address public SCREAM = address(0xe0654C8e6fd4D733349ac7E09f6f23DA256bF475); //SCREAM
 
 
   // With `magnitude`, we can properly distribute dividends even if the amount of received ether is small.
