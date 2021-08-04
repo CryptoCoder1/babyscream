@@ -32,6 +32,7 @@ babySCREAM contract:
 0x9130AAFe7Eeb94B6873afac68e6C1e92DBeb0992
 
 # safty ensurance
-babySCREAM is a full fork of babyCAKE on bcc, only changed some address
+babySCREAM is a full fork of babyCAKE on bcc, only changed some addresses
+
 babyCAKE Certik audit: https://www.certik.org/projects/babycake
 babyCAKE bcc address: https://bscscan.com/address/0xdb8d30b74bf098af214e862c90e647bbb1fcc58c#code
