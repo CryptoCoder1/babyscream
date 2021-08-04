@@ -25,4 +25,6 @@ babySCREAM contract:
 
 50% for fair launch at SpookySwap.
 
-babySCREAM-WFTM LP will be locked for 1 month:  0x9130AAFe7Eeb94B6873afac68e6C1e92DBeb0992
+babySCREAM-WFTM LP will be locked for 1 month: 
+
+0x9130AAFe7Eeb94B6873afac68e6C1e92DBeb0992
