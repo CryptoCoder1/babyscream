@@ -35,3 +35,15 @@ babySCREAM contract:
 babySCREAM is a full fork of babyCAKE on bcc, only changed some addresses  
 babyCAKE Certik audit: https://www.certik.org/projects/babycake  
 babyCAKE bcc address: https://bscscan.com/address/0xdb8d30b74bf098af214e862c90e647bbb1fcc58c#code
+
+# Social feeds:
+Website:  https://www.babyscream.xyz
+
+Discord:  http://discord.gg/Tb4dUjQ8
+
+Telegram: https://t.me/babyScream_Official
+
+Twitter:  https://twitter.com/BabyScream_FTM
+
+Github: https://github.com/CryptoCoder1/babyscream
+
