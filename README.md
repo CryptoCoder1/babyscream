@@ -12,18 +12,12 @@ babySCREAM contract:
 
 0x82eEeDA01447A0AdCd31Bc2996720A9831b8F533 
 
-
-## 5% for dev fund:  
-
-0xb871b5916A9fed5937124175C94aF5AE4b5E0C27
-
-
 ## 10% locked for one month for future activities: 
 
 0xBEB7155E2c4527B032CD331d9F644597603114B5
 
 
-## 50% for fair launch at SpookySwap.
+## 55% for fair launch at SpookySwap.
 
 # LP lock
 
